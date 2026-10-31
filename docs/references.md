@@ -6,13 +6,13 @@ Forshaw, M., Alexandru, A., Bentley, C., González-Zelaya, V., Ajanovski, V., Bi
 
 Gómez-Zará, D., Andreoli, S., Dechurch, L. A., & Contractor, N. S. (2019). Discovering collaborators online: Assembling interdisciplinary teams online at an Argentinian University. Cuadernos.Info, (44), 21-41. [https://doi.org/10.7764/cdi.44.1575](https://doi.org/10.7764/cdi.44.1575)
 
-Hastings, E. M., Ojha, V., Austriaco, B. V., Karahalios, K., & Bailey, B. P. (2023). Composing team compositions: An examination of instructors' current algorithmic team formation practices. Proceedings of the ACM on Human-Computer Interaction, 7(CSCW2), Article 305. [https://doi.org/10.1145/3610096](https://doi.org/10.1145/3610096?utm_source=gemini)
+Hastings, E. M., Ojha, V., Austriaco, B. V., Karahalios, K., & Bailey, B. P. (2023). Composing team compositions: An examination of instructors' current algorithmic team formation practices. Proceedings of the ACM on Human-Computer Interaction, 7(CSCW2), Article 305. [https://doi.org/10.1145/3610096](https://doi.org/10.1145/3610096)
 
 Hevenstone, D., Endrissat, N., Lavrovsky, O., & Hümbelin, O. (2026). Designing for diversity: team formation and participatory policy design. Policy Design and Practice, 9(2), 232-243. [https://doi.org/10.1080/25741292.2025.2610868](https://doi.org/10.1080/25741292.2025.2610868)
 
 Jadhav, A. V., Masrouri, M., & Qin, Z. (2026). ResearchConnect: An AI-Powered Platform for Interdisciplinary Research Team Formation and Ideation Development. Advanced Intelligent Systems, 8(5). [https://doi.org/10.1002/aisy.202501399](https://doi.org/10.1002/aisy.202501399)
 
-Kohli, S., Ramachandran, N., Tudor, A., Tumushabe, G., Hsu, O., & Ranade, G. (2023). Inclusive study group formation at scale. In Proceedings of the 54th ACM Technical Symposium on Computer Science Education (Vol. 1, pp. 11-17). Association for Computing Machinery. [https://doi.org/10.1145/3545945.3569885](https://doi.org/10.1145/3545945.3569885?utm_source=gemini)
+Kohli, S., Ramachandran, N., Tudor, A., Tumushabe, G., Hsu, O., & Ranade, G. (2023). Inclusive study group formation at scale. In Proceedings of the 54th ACM Technical Symposium on Computer Science Education (Vol. 1, pp. 11-17). Association for Computing Machinery. [https://doi.org/10.1145/3545945.3569885](https://doi.org/10.1145/3545945.3569885)
 
 Mendes, W., Richard, A., Tillo, T.-K., Pinto, G., Gama, K., & Nolte, A. (2022). Socio-technical constraints and affordances of virtual collaboration: A study of four online hackathons. Proceedings of the ACM on Human-Computer Interaction, 6(CSCW2), Article 330, 1-32. [https://doi.org/10.1145/3555221](https://doi.org/10.1145/3555221)
 
