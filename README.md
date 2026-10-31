@@ -2,76 +2,84 @@
 
 ## 1. Project Overview & Problem Statement
 
-- **Project Title:** Web System for Student Hackathon Management with Multi-Criteria Team Formation
-- **Brief Description:** A centralized web platform designed to streamline student hackathon administration while automating skill-balanced, multi-criteria team formation for participants and solo registrants.
-- **Problem Statement:** Organizing student hackathons presents significant administrative and algorithmic challenges. On the administrative side, organizers struggle with fragmented workflows across disconnected tools (e.g., Google Forms, spreadsheets, messaging apps) to manage registrations, teams, submissions, and evaluations. On the participant side, team formation is often inefficient and biased toward existing social connections rather than complementary skills. Unaffiliated participants ("solo registrants") face high barriers to entry, often being assigned randomly or left out entirely. Existing platforms lack automated, multi-criteria team formation algorithms that match participants based on skill sets, experience levels, preferred roles, and project preferences.
-- **Target Users:**
-  - **Hackathon Organizers:** Academic staff, student organizations, or event administrators managing event schedules, registrations, team allocations, announcements, and evaluation workflows.
-  - **Student Participants:** Individual students or pre-formed teams seeking missing skill sets, project tracks, or suitable teammates based on technical criteria.
-  - **Judges / Mentors:** Faculty members or industry experts evaluating project submissions against scoring rubrics.
-- **Aim:** To design, implement, and evaluate a centralized web platform that streamlines end-to-end hackathon administration while automating balanced, skill-based team formation via a multi-criteria algorithm.
-- **Objectives:**
-  1. **Requirements & Research:** Conduct user interviews and comparative analyses of existing hackathon platforms and matching algorithms to establish system requirements.
-  2. **System Architecture & Design:** Design a scalable web application architecture with database schemas, API contracts, and user interaction scenarios.
-  3. **Multi-Criteria Matching Algorithm:** Formulate and implement a team formation algorithm that processes participant profiles (skills, roles, project preferences, availability) to suggest or create balanced teams.
-  4. **Platform Core Features Development:** Implement participant profile management, organizer management dashboards, real-time team discovery, and submission/scoring modules.
-  5. **Testing & Evaluation:** Validate system performance, usability, and matching algorithm quality against a baseline solution using clear evaluation metrics.
-
----
+- Project Title: Web System for Student Hackathon Management with Multi-Criteria Team Formation.
+- Brief Description: A proposed centralized web platform for student hackathon administration and multi-criteria team formation.
+- Problem Statement: Hackathon administration can involve separate registration forms, spreadsheets and messaging tools. HackMatch will connect event administration with participant profiles, explainable teammate recommendations and participant confirmation. The preliminary survey informs feature priorities, while the literature review and existing-system comparison inform the proposed design. The survey does not establish that algorithmic matching improves team performance. See [evidence of relevance](docs/relevance.md) and [existing-system comparison](docs/existing-systems.md).
+- Target Users:
+  - Hackathon organizers managing events, registrations, teams, announcements and judging.
+  - Student participants registering individually or as teams and seeking suitable teammates.
+  - Judges evaluating assigned submissions against event rubrics.
+- Aim: To design, implement and evaluate a centralized web platform that combines hackathon administration with multi-criteria team formation.
+- Objectives:
+  1. Validate user needs and compare existing platforms and matching approaches.
+  2. Design the system architecture, database, API contracts and user scenarios.
+  3. Implement team recommendations based on skills, roles, interests and availability.
+  4. Implement event registration, profiles, team management, submissions and judging.
+  5. Evaluate technical correctness, usability and matching quality against a baseline.
 
 ## 2. Team Members & Supervisor
 
-- **Team Members:**
-  - **Elkham Mamedov** – Requirements Analysis, Quality Assurance, Integration & Documentation
-  - **Ilnur Saipiyev** – Backend Development, Database Engineering & Matching Algorithm Optimization
-  - **Alisher Askar** – Frontend Development & Responsive UI Implementation
-- **Supervisor:** Nurtas Nadirov
+| Member | Responsibilities |
+| --- | --- |
+| Elkham Mamedov | Requirements analysis, QA, integration and documentation |
+| Ilnur Saipiyev | Backend, database and matching algorithm |
+| Alisher Askar | Frontend |
 
----
+Supervisor: Nurtas Nadirov.
 
 ## 3. Scope & Development Status
 
-- **Project Scope:**
-  - **In-Scope:**
-    - **User Management:** Authentication, authorization, Role-Based Access Control (RBAC), and detailed skill/profile building.
-    - **Hackathon Event Management:** Event creation, track setting, registration timelines, schedule updates, and announcements.
-    - **Multi-Criteria Team Formation:** Algorithmic teammate recommendations for incomplete teams and auto-grouping for solo registrants based on complementary skill matrices and role coverage.
-    - **Submission & Evaluation Portal:** Project submission links (repository, demo), assigned judging scoring sheets, and leaderboard generation.
-    - **System Documentation & Testing:** Source code repository management, YouTrack task traceability, end-to-end API testing, and architectural design.
-  - **Out-of-Scope:**
-    - Native mobile applications (desktop and mobile responsive web application only).
-    - In-platform live code execution or sandbox (verification relies on external GitHub/demo links).
-    - Payment or prize distribution integrations.
-- **Current Development Status:** Phase 1 – System Analysis, Literature Review, Requirements Engineering, Architectural Design, and Initial Technical Setup (Pre-Defense 1).
+### In scope
 
----
+- Accounts, authentication, role-based access and participant profiles.
+- Event creation, rules, registration, schedules and announcements.
+- Multi-criteria teammate recommendations and team formation for solo participants.
+- Invitations, participant confirmation and organizer adjustments.
+- Project submission through repository and demo links.
+- Rubric-based judging and results.
+- Documentation, testing and evaluation.
 
-## 4. Finalized Technology Stack
+### Out of scope
 
-- **Frontend:** Next.js (React, TypeScript, Tailwind CSS) for reusable component architecture, real-time dashboards, and responsive forms.
-- **Backend:** Node.js / Express.js REST API providing authentication, RBAC, event management, submission, and judging endpoints.
-- **Database:** PostgreSQL for relational data storage (users, events, applications, teams, submissions, and scores).
-- **Matching Module:** Integrated modular engine supporting both a simple rule-based baseline and a weighted multi-criteria matching strategy with explainable feedback.
-- **DevOps & Tooling:** Git / GitHub (Version control), YouTrack (Task tracking), Figma (UI Mockups), Postman (API Testing).
+- Native mobile applications.
+- Execution of submitted code within the platform.
+- Payment processing and prize distribution.
 
----
+Current status: Analysis, literature review, requirements engineering, architectural design and initial technical setup. Documentation and prototype materials are available; application implementation and evaluation trials are pending.
+
+## 4. Selected Technology Stack
+
+| Area | Selected technology |
+| --- | --- |
+| Frontend | Next.js, React, TypeScript, Tailwind CSS |
+| Backend | Node.js, Express |
+| Database | PostgreSQL |
+| Matching module | Rule-based baseline and weighted multi-criteria strategy |
+| Version control | Git and GitHub |
+| Task tracking | YouTrack |
+| Interface design | Figma |
+| API testing | Postman |
+
+The backend and matching module are planned components. See [technology comparison](docs/technology-comparison.md) for alternatives and selection reasons.
 
 ## 5. Links & Resources
 
-- **YouTrack Board:** [View Agile Board](https://hackmatch.youtrack.cloud/agiles/204-0/current)
-- **Frontend Repository:** [hackmatch-frontend](https://github.com/hackmatch-diploma/hackmatch-frontend)
-- **Backend Repository:** [hackmatch-backend](https://github.com/hackmatch-diploma/hackmatch-backend)
-
----
+The project uses multiple repositories. Hackmatch contains shared documentation, diagrams, prototype materials and project-wide QA materials. Application code, configuration and component tests belong in the frontend and backend repositories.
+[31.10.2026 22:33] Ильнур: - [Shared project repository](https://github.com/hackmatch-diploma/Hackmatch)
+- [Frontend repository](https://github.com/hackmatch-diploma/hackmatch-frontend)
+- [Backend repository](https://github.com/hackmatch-diploma/hackmatch-backend)
+- [YouTrack board](https://hackmatch.youtrack.cloud/agiles/204-0/current)
+- [Figma prototype](https://www.figma.com/design/bwuI4WpM8lHKXQNkIWr8dK/HackMatch-UI-UX-proto?node-id=0-1)
+- [Pre-defense 1 snapshot](https://github.com/hackmatch-diploma/Hackmatch/releases/tag/pre-defense-1)
 
 ## 6. Documentation
 
 - [Project proposal](docs/project-proposal.md)
 - [Evidence of relevance and survey analysis](docs/relevance.md)
 - [Literature review](docs/literature-review.md)
-- [Existing systems](docs/existing-systems.md)
+- [Existing-system comparison](docs/existing-systems.md)
 - [Technology comparison](docs/technology-comparison.md)
-- [Requirements](docs/requirements.md)
+- [Requirements specification](docs/requirements.md)
 - [Architecture](docs/architecture.md)
 - [Prototype design notes](designproto/prototype.md)
 - [Evaluation plan](docs/evaluation-plan.md)
@@ -82,70 +90,90 @@
 - [Survey results](docs/Опросник/)
 - [Architecture diagram sources and exports](diagrams/)
 
----
-
-
 ## 7. Repository Structure & Deliverables Index
 
-The overall project documentation deliverables and complete technical report are organized inside this `.github` repository:
+Shared documentation and design materials are maintained in this repository. Frontend and backend application code is maintained in the separate repositories linked above.
 
-```text
-.
-├── README.md                      <-- Organization Landing Page & Main Project Overview
-└── docs/
-    └── report.docx                <-- Consolidated Technical Report
-```
+Hackmatch/
+├── README.md
+├── .gitignore
+├── docs/
+│   ├── project-proposal.md
+│   ├── relevance.md
+│   ├── literature-review.md
+│   ├── existing-systems.md
+│   ├── technology-comparison.md
+│   ├── requirements.md
+│   ├── architecture.md
+│   ├── evaluation-plan.md
+│   ├── project-management.md
+│   ├── supervisor-feedback.md
+│   ├── references.md
+│   ├── report.docx
+│   └── Опросник/
+├── diagrams/
+│   ├── source/
+│   └── exports/
+└── designproto/
+    ├── prototype.md
+    ├── assets/
+    └── UI-UX_protolink_figma.pdf
 
----
+Editable SVG diagrams are stored in diagrams/source/ and PNG exports in diagrams/exports/. Prototype screenshots are stored in designproto/assets/.
+
+Project-wide manual test cases, requirement coverage and integration test reports will be added under tests/ as they are prepared. Backend and frontend automated tests and configuration files belong in their respective application repositories.
 
 ## 8. Requirements Specification Summary
 
-### Functional Requirements Matrix
+The tables below summarise the current [requirements specification](docs/requirements.md).
 
-| ID        | Requirement Title           | Priority | Verifiable Acceptance Criterion                                                                                 |
-| :-------- | :-------------------------- | :------: | :-------------------------------------------------------------------------------------------------------------- |
-| **FR-01** | Create Hackathon Events     |   High   | The organizer saves an event with title, dates, rules, and team size; it appears in the active event list.      |
-| **FR-02** | Register for Event          |   High   | Eligible students submit registration and see confirmation; duplicate submissions are blocked.                  |
-| **FR-03** | Edit Participant Profile    |   High   | Students specify skills, experience, preferred roles, and interests; saved values persist across sessions.      |
-| **FR-04** | Suggest Teammates           |   High   | System returns candidate teams using specified criteria and configured minimum/maximum size constraints.        |
-| **FR-05** | Confirm / Decline Team      |   High   | Students confirm or reject team invitations; team membership updates accordingly.                               |
-| **FR-06** | Manual Organizer Management |  Medium  | Organizer reassigns a participant; updated team remains within valid size and role constraints.                 |
-| **FR-07** | Submit Deliverables         |   High   | Teams submit repository and demo links prior to the deadline; submission is visible on the organizer dashboard. |
-| **FR-08** | View Judging Results        |  Medium  | Authorized judges submit rubric scores; organizer views aggregated results and leaderboard.                     |
+### Functional requirements
 
-### Non-Functional Requirements Matrix
+| ID | Requirement | Priority | Verifiable acceptance criterion |
+| --- | --- | --- | --- |
+| FR-01 | Create hackathon events | High | The organizer saves an event with title, dates, rules and team size; it appears in the event list. |
+| FR-02 | Register for an event | High | Eligible students submit a registration and see confirmation; duplicate submission is blocked. |
+| FR-03 | Edit participant profile | High | Students have skills, experience, preferred roles and interests; values remain after login. |
+| FR-04 | Suggest teammates | High | System returns candidate teams using specified criteria and configured minimum/maximum size. |
+| FR-05 | Confirm or decline a team | High | Students confirm or reject an invitation; team membership updates accordingly. |
+| FR-06 | Manage teams manually | Medium | The organizer can reassign a participant; the updated team remains within valid constraints. |
+| FR-07 | Submit a project | High | Team submits repository and demo links before deadline; submission is visible to the organizer. |
+| FR-08 | View judging results | Medium | An authorized judge submits rubric scores and the organizer sees the results. |
 
-| ID         | Requirement Title                    | Priority | Verifiable Acceptance Criterion                                                                                                              |
-| :--------- | :----------------------------------- | :------: | :------------------------------------------------------------------------------------------------------------------------------------------- |
-| **NFR-01** | Role-Based Access Control            |   High   | Participant accounts cannot reach organizer-only APIs; unauthorized requests return HTTP `403 Forbidden`.                                    |
-| **NFR-02** | Responsive Interface                 |   High   | Registration, profile, and team screens are fully functional at 375 px (mobile) and 1280 px (desktop) viewports without horizontal overflow. |
-| **NFR-03** | Explainability & Constraint Warnings |   High   | Match recommendations display criteria used; impossible constraints trigger clear error warnings instead of generating invalid teams.        |
-
----
+### Non-functional requirements
+[31.10.2026 22:33] Ильнур: | ID | Requirement | Priority | Verifiable acceptance criterion |
+| --- | --- | --- | --- |
+| NFR-01 | Role-based access | High | A participant account cannot reach organizer-only APIs; unauthorized requests return 403. |
+| NFR-02 | Responsive interface | High | Registration and team screens are usable at 375 px and 1280 px widths without horizontal overflow. |
+| NFR-03 | Explainability and invalid constraints | High | Every suggestion shows criteria used; impossible constraints produce a clear warning instead of an invalid team. |
 
 ## 9. System Architecture Overview
 
-The system follows a three-tier architecture:
+The proposed system follows a three-tier architecture:
 
-1. **Presentation Tier:** Next.js (React / Tailwind CSS) responsive web application communicating via REST API endpoints.
-2. **Application Tier:** Node.js / Express/NestJS server containing authentication, event workflow handlers, submission modules, and an isolated matching module containing both rule-based baseline and weighted multi-criteria algorithms.
-3. **Data Tier:** PostgreSQL relational database managing persistent entities (Users, Events, Registrations, Teams, Submissions, Rubric Scores).
+1. Presentation tier: A responsive Next.js application using React, TypeScript and Tailwind CSS, communicating with the backend through a REST API.
+2. Application tier: A Node.js and Express server containing authentication, event management, team management, submission and judging modules. An internal matching module supports rule-based and weighted strategies.
+3. Data tier: PostgreSQL stores users, events, registrations, profiles, teams, memberships, invitations, announcements, submissions and scores.
 
----
+See [architecture documentation](docs/architecture.md) and [diagrams](diagrams/).
 
-## 10. Setup & Local Development Instructions
+## 10. Repository Access and Local Development
 
-_(To be populated as runnable code is deployed to the frontend and backend repositories)_
+Clone the shared documentation repository:
 
-### Prerequisites
+git clone https://github.com/hackmatch-diploma/Hackmatch.git
 
-- **Node.js**: v18.0.0 or higher
-- **PostgreSQL**: v14.0 or higher
-- **Git**
+Clone the application repositories separately:
 
-### Repository Access
+git clone https://github.com/hackmatch-diploma/hackmatch-backend.git
+git clone https://github.com/hackmatch-diploma/hackmatch-frontend.git
 
-```bash
-# Clone the repository
-git clone https://github.com/hackmatch-diploma/.github.git
-```
+Installation, environment configuration, execution and testing instructions will be maintained in each application repository when runnable code is available. Node.js and PostgreSQL version requirements will be documented alongside that implementation.
+
+## 11. Development Workflow
+
+Each meaningful work item should have a YouTrack task with an owner, priority, deadline and acceptance criteria. Include the task ID in the branch name and commit message or pull request description, and link the pull request or commit from the task.
+
+Develop changes in a task branch, open a pull request and obtain another team member's review before merging into main.
+
+The pre-defense-1 tag identifies a fixed submission snapshot. Later commits may differ from that snapshot. Existing submission tags are retained.
