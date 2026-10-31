@@ -94,6 +94,7 @@ The project uses multiple repositories. Hackmatch contains shared documentation,
 
 Shared documentation and design materials are maintained in this repository. Frontend and backend application code is maintained in the separate repositories linked above.
 
+```text
 Hackmatch/
 ├── README.md
 ├── .gitignore
@@ -118,6 +119,7 @@ Hackmatch/
     ├── prototype.md
     ├── assets/
     └── UI-UX_protolink_figma.pdf
+```
 
 Editable SVG diagrams are stored in diagrams/source/ and PNG exports in diagrams/exports/. Prototype screenshots are stored in designproto/assets/.
 
