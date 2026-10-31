@@ -1,0 +1,10 @@
+# Technology comparison
+
+The selected stack is Next.js with React, TypeScript and Tailwind CSS for the frontend, Node.js with Express for the REST API, and PostgreSQL for storage. React supports reusable registration forms and dashboards; a JavaScript and TypeScript stack suits the team's development experience. PostgreSQL supports the relationships and transactional updates required for registrations, invitations and memberships. The matching module separates a rule-based baseline from weighted recommendations so both can be evaluated on the same data. The comparison below records the alternatives and reasons for selection. GitHub supports version control, YouTrack task tracking, Figma interface design and Postman API testing.
+
+| Technical Decision | Alternative A | Alternative B | Alternative C | Selected Choice & Justification |
+| --- | --- | --- | --- | --- |
+| Frontend framework | React: reusable UI; suited to dashboards | Vue: component-based; another viable option | Vanilla JS: lightweight; more manual UI state | React (Next.js). Reusable components suit dashboards, and our frontend developer already has experience with this stack  |
+| Backend framework | Django REST: integrated APIs and admin | Node.js / Express: JavaScript across stack | Go: efficient API; additional learning cost | Node.js / Express. JavaScript across the whole stack simplifies teamwork, and Express is quick to set up for a REST API |
+| Database | PostgreSQL: relational and multi-user | MongoDB: flexible documents; complex relations | SQLite: simple local prototype | PostgreSQL. The data is relational (users, events, applications, teams) and needs reliable multi-user access |
+| Matching strategy | Weighted multi-criteria: flexible scoring | Rule-based: interpretable baseline | Manual allocation: evaluation comparator | Weighted multi-criteria. It gives flexible scoring of skills, experience, roles and interests. A rule-based version is built first as a baseline, and manual allocation is used for comparison in the evaluation |
