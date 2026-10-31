@@ -64,7 +64,28 @@
 
 ---
 
-## 6. Repository Structure & Deliverables Index
+## 6. Documentation
+
+- [Project proposal](docs/project-proposal.md)
+- [Evidence of relevance and survey analysis](docs/relevance.md)
+- [Literature review](docs/literature-review.md)
+- [Existing systems](docs/existing-systems.md)
+- [Technology comparison](docs/technology-comparison.md)
+- [Requirements](docs/requirements.md)
+- [Architecture](docs/architecture.md)
+- [Prototype design notes](designproto/prototype.md)
+- [Evaluation plan](docs/evaluation-plan.md)
+- [Project management and risks](docs/project-management.md)
+- [Supervisor feedback](docs/supervisor-feedback.md)
+- [References](docs/references.md)
+- [Word report](docs/report.docx)
+- [Survey results](docs/Опросник/)
+- [Architecture diagram sources and exports](diagrams/)
+
+---
+
+
+## 7. Repository Structure & Deliverables Index
 
 The overall project documentation deliverables and complete technical report are organized inside this `.github` repository:
 
@@ -77,7 +98,7 @@ The overall project documentation deliverables and complete technical report are
 
 ---
 
-## 7. Requirements Specification Summary
+## 8. Requirements Specification Summary
 
 ### Functional Requirements Matrix
 
@@ -102,7 +123,7 @@ The overall project documentation deliverables and complete technical report are
 
 ---
 
-## 8. System Architecture Overview
+## 9. System Architecture Overview
 
 The system follows a three-tier architecture:
 
@@ -112,7 +133,7 @@ The system follows a three-tier architecture:
 
 ---
 
-## 9. Setup & Local Development Instructions
+## 10. Setup & Local Development Instructions
 
 _(To be populated as runnable code is deployed to the frontend and backend repositories)_
 
